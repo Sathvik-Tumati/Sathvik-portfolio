@@ -1,0 +1,195 @@
+/* ============================================================
+   SKILLS PAGE
+   ============================================================ */
+
+/* --- HEADER --- */
+.skills-header {
+  padding: 160px 80px 80px;
+}
+
+.skills-header__body {
+  font-family: var(--font-body);
+  font-size: 17px;
+  color: var(--text-secondary);
+  max-width: 580px;
+  margin-top: 20px;
+  line-height: 1.7;
+}
+
+/* --- PILLARS --- */
+.pillars {
+  padding: 0;
+}
+
+.pillar {
+  display: flex;
+  gap: 60px;
+  padding: 68px 80px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.pillar__left {
+  flex: 0 0 55%;
+}
+
+.pillar__number {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--amber);
+  letter-spacing: 0.1em;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.pillar__headline {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(26px, 3vw, 38px);
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.pillar__body {
+  font-family: var(--font-body);
+  font-size: 18px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  max-width: 480px;
+}
+
+.pillar__belief {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 16px;
+  color: var(--amber);
+  margin-top: 14px;
+}
+
+.pillar__right {
+  flex: 1;
+}
+
+.pillar__right .label-mono-sm {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.pillar__tools {
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 2;
+}
+
+/* --- TOOLKIT --- */
+.toolkit {
+  padding: 68px 80px;
+}
+
+.toolkit__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.toolkit__col .label-mono-sm {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.toolkit__list {
+  list-style: none;
+}
+
+.toolkit__list li {
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 2.2;
+}
+
+/* --- SOFT SKILLS --- */
+.soft-skills {
+  padding: 68px 80px;
+}
+
+.soft-skills__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.soft-skill__num {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--amber);
+  letter-spacing: 0.1em;
+}
+
+.soft-skill__title {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text-primary);
+  margin-top: 10px;
+}
+
+.soft-skill__body {
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--text-secondary);
+  max-width: 260px;
+  margin-top: 8px;
+  line-height: 1.7;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 767px) {
+  .skills-header {
+    padding: 120px 24px 48px;
+  }
+
+  .pillar {
+    flex-direction: column;
+    padding: 48px 24px;
+    gap: 24px;
+  }
+
+  .toolkit {
+    padding: 48px 24px;
+  }
+
+  .toolkit__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .soft-skills {
+    padding: 48px 24px;
+  }
+
+  .soft-skills__grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .skills-header {
+    padding: 140px 52px 60px;
+  }
+
+  .pillar {
+    padding: 60px 52px;
+  }
+
+  .toolkit,
+  .soft-skills {
+    padding: 60px 52px;
+  }
+
+  .toolkit__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,120 @@
+/* ============================================================
+   CONTACT PAGE
+   ============================================================ */
+
+.contact-page {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 80px 24px;
+  max-width: 600px;
+}
+
+.contact__signature {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(48px, 6vw, 68px);
+  color: var(--amber);
+  letter-spacing: -0.02em;
+  margin: 24px 0 20px;
+}
+
+.contact__invitation {
+  font-family: var(--font-display);
+  font-size: clamp(18px, 2.2vw, 24px);
+  color: var(--text-secondary);
+  max-width: 440px;
+  line-height: 1.65;
+}
+
+.contact__lets-talk {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(26px, 3vw, 34px);
+  color: var(--text-primary);
+  margin-top: 16px;
+}
+
+.contact__rows {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 8px;
+  width: 100%;
+  max-width: 380px;
+}
+
+.contact__row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: color 150ms ease;
+  padding: 6px 0;
+}
+
+.contact__row:hover {
+  color: var(--amber);
+}
+
+.contact__row:hover .contact__row-label,
+.contact__row:hover .contact__row-icon,
+.contact__row:hover .contact__row-value {
+  color: var(--amber);
+}
+
+.contact__row-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--bronze);
+  letter-spacing: 0.12em;
+  min-width: 70px;
+  text-align: right;
+  transition: color 150ms ease;
+}
+
+.contact__row-icon {
+  color: var(--bronze);
+  flex-shrink: 0;
+  transition: color 150ms ease;
+}
+
+.contact__row-value {
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--text-secondary);
+  transition: color 150ms ease;
+}
+
+.contact__availability {
+  margin-top: 48px;
+  text-align: center;
+}
+
+.contact__seeking-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--bronze);
+  letter-spacing: 0.16em;
+}
+
+.contact__seeking-text {
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--text-secondary);
+  margin-top: 8px;
+}
+
+.contact__copyright {
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: 40px;
+}

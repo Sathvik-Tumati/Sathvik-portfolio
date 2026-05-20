@@ -1,0 +1,211 @@
+/* ============================================================
+   EDUCATION PAGE
+   ============================================================ */
+
+/* --- HEADER --- */
+.edu-header {
+  padding: 160px 80px 80px;
+}
+
+/* --- EDUCATION CARDS --- */
+.edu-cards {
+  padding: 68px 80px;
+}
+
+.edu-card {
+  display: flex;
+  align-items: center;
+  padding: 28px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.edu-card__period {
+  flex: 0 0 20%;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(18px, 2vw, 24px);
+  color: var(--text-secondary);
+}
+
+.edu-card__center {
+  flex: 0 0 55%;
+}
+
+.edu-card__degree {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--text-primary);
+}
+
+.edu-card__institution {
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--amber);
+  margin-top: 4px;
+}
+
+.edu-card__score-wrap {
+  flex: 0 0 25%;
+  text-align: right;
+}
+
+.edu-card__score {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 3vw, 36px);
+  color: var(--text-primary);
+  display: block;
+}
+
+.edu-card__score-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--bronze);
+  letter-spacing: 0.12em;
+}
+
+/* --- TIMELINE --- */
+.timeline-section {
+  padding: 68px 80px;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 80px;
+}
+
+.timeline__line {
+  position: absolute;
+  left: 80px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: rgba(200, 146, 42, 0.2);
+}
+
+.timeline__entry {
+  position: relative;
+  padding-left: 32px;
+  padding-bottom: 36px;
+}
+
+.timeline__dot {
+  position: absolute;
+  left: -4.5px;
+  top: 4px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--amber);
+}
+
+.timeline__year {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--amber);
+  letter-spacing: 0.1em;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.timeline__title {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
+.timeline__sub {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-top: 4px;
+  line-height: 1.6;
+}
+
+/* --- ACHIEVEMENTS --- */
+.achievements {
+  padding: 68px 80px;
+}
+
+.achievements__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.achievement-card {
+  background: rgba(200, 146, 42, 0.05);
+  border: 1px solid rgba(200, 146, 42, 0.14);
+  padding: 22px 28px;
+  border-radius: 4px;
+}
+
+.achievement-card__title {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
+.achievement-card__arrow {
+  color: var(--amber);
+}
+
+.achievement-card__body {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 767px) {
+  .edu-header {
+    padding: 120px 24px 48px;
+  }
+
+  .edu-cards,
+  .timeline-section,
+  .achievements {
+    padding: 48px 24px;
+  }
+
+  .edu-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .edu-card__period,
+  .edu-card__center,
+  .edu-card__score-wrap {
+    flex: none;
+    text-align: left;
+  }
+
+  .timeline {
+    padding-left: 24px;
+  }
+
+  .timeline__line {
+    left: 24px;
+  }
+
+  .achievements__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .edu-header {
+    padding: 140px 52px 60px;
+  }
+
+  .edu-cards,
+  .timeline-section,
+  .achievements {
+    padding: 60px 52px;
+  }
+}

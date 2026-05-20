@@ -1,0 +1,161 @@
+/* ============================================================
+   ABOUT PAGE
+   ============================================================ */
+
+/* --- NARRATIVE --- */
+.narrative {
+  padding: 100px 80px;
+}
+
+.narrative__content {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.narrative__question {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(28px, 4vw, 42px);
+  color: var(--text-primary);
+  margin-bottom: 52px;
+  line-height: 1.2;
+}
+
+.narrative__para {
+  font-family: var(--font-body);
+  font-size: 18px;
+  color: var(--text-secondary);
+  line-height: 1.85;
+}
+
+/* --- PERSONALITY --- */
+.personality {
+  padding: 72px 80px;
+}
+
+.personality__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.personality__cell {
+  /* no explicit styling needed beyond content */
+}
+
+.personality__num {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--amber);
+  letter-spacing: 0.1em;
+}
+
+.personality__title {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text-primary);
+  margin-top: 10px;
+}
+
+.personality__body {
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--text-secondary);
+  margin-top: 8px;
+  line-height: 1.7;
+}
+
+/* --- EXPERIENCE --- */
+.experience {
+  padding: 72px 80px;
+}
+
+.exp-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 28px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.exp-card__left {
+  flex: 1;
+}
+
+.exp-card__role {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 17px;
+  color: var(--text-primary);
+}
+
+.exp-card__org {
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--amber);
+  margin-top: 4px;
+}
+
+.exp-card__desc {
+  font-family: var(--font-body);
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  max-width: 600px;
+  margin-top: 8px;
+}
+
+.exp-card__period {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--bronze);
+  letter-spacing: 0.1em;
+  flex-shrink: 0;
+  margin-left: 40px;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 767px) {
+  .narrative {
+    padding: 48px 24px;
+  }
+
+  .narrative__question {
+    margin-bottom: 32px;
+  }
+
+  .narrative__para {
+    font-size: 16px;
+  }
+
+  .personality {
+    padding: 48px 24px;
+  }
+
+  .personality__grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .experience {
+    padding: 48px 24px;
+  }
+
+  .exp-card {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .exp-card__period {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .narrative,
+  .personality,
+  .experience {
+    padding: 60px 52px;
+  }
+}
