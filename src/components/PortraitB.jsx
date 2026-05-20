@@ -6,8 +6,8 @@ export default function PortraitB() {
     <div className="portrait-b">
       <div className="portrait-b__img-wrap">
         <img
-          src="/images/portrait-hero.jpg"
-          alt="Sathvik Tumati"
+          src="/images/about-banner.png"
+          alt="Sathvik Tumati Banner"
           loading="eager"
         />
       </div>

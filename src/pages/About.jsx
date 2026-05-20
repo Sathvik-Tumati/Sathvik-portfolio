@@ -61,7 +61,8 @@ export default function About() {
               <p className="personality__body">
                 I'm usually thinking about why things break at scale,
                 reading about system design, or watching how institutions
-                actually function vs how they're supposed to.
+                actually function vs how they're supposed to. I'm also a Radio
+                Jockey at Aakashvani Hyderabad for the Yuvavani program.
               </p>
             </div>
           </ScrollReveal>
@@ -111,7 +112,7 @@ export default function About() {
                 and translate complex concepts into accessible knowledge.
               </p>
             </div>
-            <span className="exp-card__period">2026 — Present</span>
+            <span className="exp-card__period">Until Nov 2025</span>
           </div>
         </ScrollReveal>
 
