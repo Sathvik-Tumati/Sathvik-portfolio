@@ -112,13 +112,13 @@ export default function Home() {
                 sats.tumati@gmail.com
               </a>
               <a
-                href="https://github.com/Sathvik-Tumati"
+                href="https://linkedin.com/in/sathvik-tumati/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hero__contact-link"
               >
                 <IconBrandLinkedin size={17} stroke={1.5} />
-                linkedin.com/in/sathvik-tumati/
+                linkedin.com/in/sathvik-tumati
               </a>
             </div>
           </motion.div>
