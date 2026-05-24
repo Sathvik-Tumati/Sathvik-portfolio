@@ -125,7 +125,7 @@ export default function About() {
                 student ideas with institutional resources and opportunities.
               </p>
             </div>
-            <span className="exp-card__period">2025</span>
+            <span className="exp-card__period">Until Nov 2025</span>
           </div>
         </ScrollReveal>
       </section>
