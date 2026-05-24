@@ -117,7 +117,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="hero__contact-link"
               >
-                <IconBrandGithub size={13} stroke={1.5} />
+                <IconBrandLinkedin size={17} stroke={1.5} />
                 linkedin.com/in/sathvik-tumati/
               </a>
             </div>
