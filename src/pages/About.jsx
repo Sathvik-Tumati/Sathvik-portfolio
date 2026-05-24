@@ -20,8 +20,7 @@ export default function About() {
           <ScrollReveal delay={0.1}>
             <p className="narrative__para">
               I'm a CS student at MJCET working on AI, machine learning,
-              and backend systems. I'm in my 6th semester, and I lead the
-              AI/ML domain at SU Knowledge Hub.
+              and backend systems. I'm in my 6th semester.
             </p>
           </ScrollReveal>
 
