@@ -118,7 +118,7 @@ export default function Home() {
                 className="hero__contact-link"
               >
                 <IconBrandGithub size={13} stroke={1.5} />
-                github/Sathvik-Tumati
+                linkedin.com/in/sathvik-tumati/
               </a>
             </div>
           </motion.div>
