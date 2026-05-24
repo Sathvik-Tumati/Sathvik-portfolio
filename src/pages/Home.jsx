@@ -244,12 +244,7 @@ export default function Home() {
                   ML engineering internships
                 </span> 
               </div>
-              <div className="about-teaser__fact">
-                <span className="about-teaser__fact-key">Role</span>
-                <span className="about-teaser__fact-val">
-                  AI/ML Head · SU Knowledge Hub
-                </span>
-              </div>
+              
               <div className="about-teaser__fact">
                 <span className="about-teaser__fact-key">Built with</span>
                 <span className="about-teaser__fact-val">
