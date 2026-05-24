@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { IconMail, IconBrandGithub } from '@tabler/icons-react';
+import { IconMail, IconBrandLinkedin } from '@tabler/icons-react';
 import ScrollReveal from '../components/ScrollReveal';
 import PortraitA from '../components/PortraitA';
 import ProjectVisual from '../components/ProjectVisual';
