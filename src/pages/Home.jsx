@@ -239,12 +239,6 @@ export default function Home() {
                 <span className="about-teaser__fact-val">MJCET · CSE · 6th Semester</span>
               </div>
               <div className="about-teaser__fact">
-                <span className="about-teaser__fact-key">Role</span>
-                <span className="about-teaser__fact-val">
-                  AI/ML Head · SU Knowledge Hub
-                </span>
-              </div>
-              <div className="about-teaser__fact">
                 <span className="about-teaser__fact-key">Seeking</span>
                 <span className="about-teaser__fact-val">
                   ML engineering internships
