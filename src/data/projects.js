@@ -71,7 +71,7 @@ export const projects = [
     learned: 'Data quality is the whole problem. A sophisticated model on dirty data is worse than a simple threshold on clean data.',
     tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Matplotlib', 'Chart.js', 'Leaflet', 'FastAPI'],
     githubUrl: 'https://github.com/Sathvik-Tumati/epicast',
-    liveUrl: 'https://epicast-placeholder.onrender.com',
+    liveUrl: 'https://epicast-1.onrender.com/',
     visType: 'epi',
   },
   {
